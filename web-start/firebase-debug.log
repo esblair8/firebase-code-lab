@@ -1,0 +1,49 @@
+[debug] [2018-04-26T19:07:01.559Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T19:07:01.562Z] Command:       /usr/local/Cellar/node/8.4.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-26T19:07:01.562Z] CLI Version:   3.18.4
+[debug] [2018-04-26T19:07:01.562Z] Platform:      darwin
+[debug] [2018-04-26T19:07:01.562Z] Node Version:  v8.4.0
+[debug] [2018-04-26T19:07:01.563Z] Time:          Thu Apr 26 2018 20:07:01 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:01.563Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-26T19:07:01.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T19:07:01.627Z] > authorizing via signed-in user
+[debug] [2018-04-26T19:07:01.629Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-26T19:07:01.629Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/AAUrwg-P1Vf-fkPWQaTD0UzVV7kfhciSi4x4F5wqdcI',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 26 2018 20:07:01 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:01.818Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T19:07:01.864Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-56bb2  
+  
+ Thu Apr 26 2018 20:07:01 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:02.533Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T19:07:02.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-56bb2/tokens  
+  
+ Thu Apr 26 2018 20:07:02 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:03.110Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T19:07:03.110Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-56bb2  
+  
+ Thu Apr 26 2018 20:07:03 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:03.931Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/evanblair/Projects/web-apps/firebase-code-lab/friendlychat-web/web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-26T19:07:07.378Z] Fetching environment
+[debug] [2018-04-26T19:07:07.381Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/682898740233:getServerAppConfig  
+  
+ Thu Apr 26 2018 20:07:07 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:07.381Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/682898740233/clients/_:getWebAppConfig  
+  
+ Thu Apr 26 2018 20:07:07 GMT+0100 (BST)
+[debug] [2018-04-26T19:07:07.924Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T19:07:08.113Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T19:07:08.113Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-26T19:07:11.949Z] Parsing function triggers
